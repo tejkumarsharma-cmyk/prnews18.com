@@ -60,7 +60,7 @@ export default function AboutPage() {
             <div>
             <h2 className="text-3xl font-bold tracking-[-0.03em]">What makes this site different</h2>
             <ul className="mt-5 space-y-3 text-sm leading-7 text-[#6f4018]">
-              <li>Purpose-built visual language aligned to media press release workflows.</li>
+              <li>Purpose-built visual language aligned to media press media workflows.</li>
               <li>Primary UI emphasis on the core media distribution task while keeping all base routes accessible.</li>
               <li>Distinct homepage, navbar, cards, and page rhythm to avoid cloned-site carryover.</li>
               <li>Mobile-first responsive system with lightweight animations and high scanability.</li>

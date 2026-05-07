@@ -2,13 +2,13 @@ import type { TaskKey } from '@/lib/site-config'
 
 export const siteContent = {
   navbar: {
-    tagline: 'Media press release platform',
+    tagline: 'Media press media platform',
   },
   footer: {
     tagline: 'Distribute smarter. Reach faster.',
   },
   hero: {
-    badge: 'Press release distribution',
+    badge: 'Press media distribution',
     title: ['Publish your news with credibility and measurable reach.'],
     description:
       'PRnews18.com is built for brands, agencies, and teams who need a trusted media publishing workflow from draft to distribution.',
@@ -20,7 +20,7 @@ export const siteContent = {
       label: 'See pricing',
       href: '/press',
     },
-    searchPlaceholder: 'Search press releases',
+    searchPlaceholder: 'Search press media',
     focusLabel: 'Featured',
     featureCardBadge: 'distribution focus',
     featureCardTitle: 'Built for publishing teams and media outcomes.',
@@ -29,13 +29,13 @@ export const siteContent = {
   },
   home: {
     metadata: {
-      title: 'Press release publishing and distribution platform',
+      title: 'Press media publishing and distribution platform',
       description:
-        'Publish and distribute press releases, monitor visibility, and keep your newsroom updates discoverable on PRnews18.com.',
-      openGraphTitle: 'PRnews18.com - press release publishing platform',
+        'Publish and distribute press media, monitor visibility, and keep your newsroom updates discoverable on PRnews18.com.',
+      openGraphTitle: 'PRnews18.com - press media publishing platform',
       openGraphDescription:
-        'Clean SaaS publishing experience for press releases, media updates, and newsroom content.',
-      keywords: ['press release distribution', 'media newsroom', 'latest press releases', 'newswire platform'],
+        'Clean SaaS publishing experience for press media, media updates, and newsroom content.',
+      keywords: ['press media distribution', 'media newsroom', 'latest press media', 'newswire platform'],
     },
     introBadge: 'Platform',
     introTitle: 'A modern newsroom experience built for PR-driven teams.',
@@ -62,7 +62,7 @@ export const siteContent = {
   },
   cta: {
     badge: 'Start distributing',
-    title: 'Launch your next press release with a cleaner, faster publication stack.',
+    title: 'Launch your next press media with a cleaner, faster publication stack.',
     description:
       'Scale from occasional announcements to high-frequency newsroom publishing without changing your underlying workflow.',
     primaryCta: {
@@ -74,7 +74,7 @@ export const siteContent = {
       href: '/updates',
     },
   },
-  taskSectionHeading: 'Latest press releases',
+  taskSectionHeading: 'Latest press media',
   taskSectionDescriptionSuffix: 'Read the newest distributed stories.',
 } as const
 
@@ -108,8 +108,8 @@ export const taskPageMetadata: Record<Exclude<TaskKey, 'comment' | 'org' | 'soci
     description: 'Open PDFs and downloadable files.',
   },
   mediaDistribution: {
-    title: 'Press releases',
-    description: 'Browse the latest published press releases and media announcements.',
+    title: 'Press media',
+    description: 'Browse the latest published press media and media announcements.',
   },
 }
 
@@ -128,7 +128,7 @@ export const taskIntroCopy: Record<
   comment: { title: 'Comments', paragraphs: ['Commentary and response posts.'], links: [{ label: 'Home', href: '/' }] },
   org: { title: 'Organizations', paragraphs: ['Organization pages and entities.'], links: [{ label: 'Home', href: '/' }] },
   mediaDistribution: {
-    title: 'Press release newsroom',
+    title: 'Press media newsroom',
     paragraphs: [
       'This newsroom archive is optimized for media distribution teams that publish frequent announcements and need clear discovery surfaces.',
       'Use filters, search, and visual cards to move from headline scan to full article reading with less friction.',

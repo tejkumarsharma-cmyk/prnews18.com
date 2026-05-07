@@ -20,7 +20,7 @@ export function ContactPageOverride() {
         </section>
 
         <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="mx-auto max-w-3xl">
             <div className="rounded-[1.8rem] border border-[#f1a661]/25 bg-white p-6 shadow-[0_18px_40px_rgba(209,132,63,0.12)] sm:p-7">
               <h2 className="text-2xl font-semibold">Send a message</h2>
               <p className="mt-2 text-sm text-[#7c471d]">All fields below are optional UI-only placeholders and keep existing logic untouched.</p>
@@ -45,34 +45,7 @@ export function ContactPageOverride() {
               </form>
             </div>
 
-            <div className="space-y-5">
-              <div className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
-                <h3 className="text-lg font-semibold">Telephone Hours</h3>
-                <p className="mt-2 text-sm text-[#7c471d]">Monday to Friday</p>
-                <p className="text-sm text-[#7c471d]">8:30am to 5:00pm Pacific (PDT)</p>
-              </div>
-              <div className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
-                <h3 className="text-lg font-semibold">Toll Free Telephone</h3>
-                <p className="mt-2 text-sm text-[#7c471d]">1-888-880-9539</p>
-                <p className="text-sm text-[#7c471d]">(646) 417-8294</p>
-              </div>
-              <div className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
-                <h3 className="text-lg font-semibold">US Address</h3>
-                <p className="mt-2 text-sm leading-7 text-[#7c471d]">
-                  Suite 1400 - 505 Second Avenue
-                  <br />
-                  Seattle, WA 98104, USA
-                </p>
-              </div>
-              <div className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
-                <h3 className="text-lg font-semibold">Canada Address</h3>
-                <p className="mt-2 text-sm leading-7 text-[#7c471d]">
-                  Suite 203 - 901 West 3rd St
-                  <br />
-                  North Vancouver, BC V7P 3P9, Canada
-                </p>
-              </div>
-            </div>
+
           </div>
         </section>
 

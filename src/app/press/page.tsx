@@ -132,7 +132,7 @@ export default function PressPage() {
               <h2 className="text-2xl font-semibold">Add-ons</h2>
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {[
-                  'Press release writing assistance',
+                  'Press media writing assistance',
                   'Priority editorial review',
                   'Extra language localization',
                   'Custom media outreach list',

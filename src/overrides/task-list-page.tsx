@@ -5,7 +5,6 @@ import { fetchTaskPosts } from '@/lib/task-data'
 import type { TaskKey } from '@/lib/site-config'
 import { ContentImage } from '@/components/shared/content-image'
 import { MediaListingClient } from '@/overrides/media-listing-client'
-import { ArrowRight } from 'lucide-react'
 
 export const TASK_LIST_PAGE_OVERRIDE_ENABLED = true
 
@@ -19,16 +18,12 @@ export async function TaskListPageOverride(_: { task: TaskKey; category?: string
         <section className="border-b border-[#f1a661]/20 bg-[linear-gradient(180deg,#fff6e9_0%,#fffaf4_100%)]">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-16">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#9a5b22]">Press Release Listing</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#9a5b22]">Press Media Listing</p>
               <h1 className="mt-3 text-4xl font-bold tracking-[-0.04em] sm:text-5xl">Find the right announcement fast with smart filters.</h1>
               <p className="mt-5 max-w-2xl text-sm leading-8 text-[#6f4018]">
-                Browse all published press releases using category and date filters with built-in search. This layout is optimized for quick newsroom scanning on desktop and mobile.
+                Browse all published press media using category and date filters with built-in search. This layout is optimized for quick newsroom scanning on desktop and mobile.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link href="/press" className="inline-flex items-center gap-2 rounded-full bg-[#e38b29] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#cc7417]">
-                  Compare Plans
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
                 <Link href="/contact" className="inline-flex items-center rounded-full border border-[#f1a661]/35 bg-white px-5 py-3 text-sm font-semibold text-[#5f3514] hover:bg-[#fff0dd]">
                   Contact Desk
                 </Link>

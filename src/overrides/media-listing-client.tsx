@@ -63,7 +63,7 @@ export function MediaListingClient({ posts }: { posts: SitePost[] }) {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search press releases..."
+              placeholder="Search press media..."
               className="h-full w-full bg-transparent text-sm outline-none placeholder:text-[#9a5b22]/70"
             />
           </label>
@@ -97,13 +97,6 @@ export function MediaListingClient({ posts }: { posts: SitePost[] }) {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#9a5b22]">{getCategory(post)}</p>
             <h2 className="mt-3 text-2xl font-semibold leading-tight text-[#2b170a]">{post.title}</h2>
             <p className="mt-3 text-sm leading-7 text-[#6f4018]">{excerpt(post.summary)}</p>
-            <p className="mt-4 text-xs font-medium text-[#9a5b22]">
-              {new Date(post.publishedAt || Date.now()).toLocaleDateString('en-US', {
-                month: 'long',
-                day: 'numeric',
-                year: 'numeric',
-              })}
-            </p>
             <Link href={`/updates/${post.slug}`} className="mt-4 inline-flex items-center rounded-full border border-[#f1a661]/35 px-4 py-2 text-sm font-semibold text-[#9a5b22] transition-colors hover:bg-[#fff0dd] hover:text-[#e38b29]">
               Read full release
             </Link>
@@ -113,7 +106,7 @@ export function MediaListingClient({ posts }: { posts: SitePost[] }) {
 
       {!filtered.length ? (
         <section className="mt-8 rounded-[1.4rem] border border-dashed border-[#f1a661]/45 bg-[#fff5e8] p-7 text-center">
-          <p className="text-lg font-semibold text-[#5f3514]">No press releases match your filters.</p>
+          <p className="text-lg font-semibold text-[#5f3514]">No press media match your filters.</p>
           <p className="mt-2 text-sm text-[#8d5220]">Try changing category/date selection or clearing your search query.</p>
         </section>
       ) : null}

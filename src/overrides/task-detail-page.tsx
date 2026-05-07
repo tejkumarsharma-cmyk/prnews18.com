@@ -32,13 +32,10 @@ export async function TaskDetailPageOverride({ slug }: { task: TaskKey; slug: st
       <NavbarShell />
       <section className="border-b border-[#f1a661]/20 bg-[linear-gradient(180deg,#fff6ea_0%,#fffaf4_100%)] py-12">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
-          <div className="text-xs font-semibold uppercase tracking-[0.23em] text-[#9a5b22]">Press Release</div>
+          <div className="text-xs font-semibold uppercase tracking-[0.23em] text-[#9a5b22]">Press Media</div>
           <h1 className="mt-3 text-4xl font-bold leading-tight tracking-[-0.04em] sm:text-5xl">{post.title}</h1>
           <p className="mt-4 text-base leading-8 text-[#6f4018]">{subtitle}</p>
           <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-[#875028]">
-            <span className="rounded-full bg-[#ffe3bf] px-3 py-1 font-semibold">
-              {new Date(post.publishedAt || Date.now()).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-            </span>
             <span>By {post.authorName || 'PRnews18 Editorial Desk'}</span>
             <span className="rounded-full border border-[#f1a661]/35 px-3 py-1">
               {String((content.category as string) || 'Media Update')}
@@ -88,29 +85,11 @@ export async function TaskDetailPageOverride({ slug }: { task: TaskKey; slug: st
 
           <aside className="space-y-5">
             <section className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#9a5b22]">Need wider distribution?</p>
-              <h2 className="mt-2 text-xl font-semibold">Upgrade your release reach.</h2>
-              <p className="mt-2 text-sm leading-7 text-[#6f4018]">
-                Compare plans and unlock stronger media visibility, analytics depth, and priority support.
-              </p>
-              <Link href="/press" className="mt-4 inline-flex rounded-full bg-[#e38b29] px-4 py-2 text-sm font-semibold text-white hover:bg-[#cc7417]">
-                View Pricing
-              </Link>
-            </section>
-
-            <section className="rounded-[1.6rem] border border-[#f1a661]/25 bg-white p-5">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#9a5b22]">Related Releases</p>
               <div className="mt-3 space-y-4">
                 {recent.map((item) => (
                   <Link key={item.id} href={`/updates/${item.slug}`} className="block rounded-xl border border-[#f1a661]/20 p-3 transition hover:bg-[#fff6ea]">
                     <p className="text-sm font-semibold leading-6 text-[#321b0b]">{item.title}</p>
-                    <p className="mt-1 text-xs text-[#8d5220]">
-                      {new Date(item.publishedAt || Date.now()).toLocaleDateString('en-US', {
-                        month: 'long',
-                        day: 'numeric',
-                        year: 'numeric',
-                      })}
-                    </p>
                   </Link>
                 ))}
               </div>

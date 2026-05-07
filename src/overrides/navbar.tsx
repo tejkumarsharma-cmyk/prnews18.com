@@ -8,11 +8,10 @@ import { SITE_CONFIG } from '@/lib/site-config'
 
 export const NAVBAR_OVERRIDE_ENABLED = true
 
-const utilityLinks = [{ label: '+1 888 880 9539', href: '/contact' }, { label: 'Support', href: '/contact' }]
+const utilityLinks = [{ label: 'Support', href: '/contact' }]
 const primaryNav = [
   { label: 'Home', href: '/' },
   { label: 'Latest News', href: '/updates' },
-  { label: 'Pricing', href: '/press' },
   { label: 'About Us', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ]
@@ -48,7 +47,7 @@ export function NavbarOverride() {
           </div>
           <div className="min-w-0">
             <p className="truncate text-xl font-bold tracking-tight">{SITE_CONFIG.name}</p>
-            <p className="truncate text-[11px] uppercase tracking-[0.22em] text-[#9a5b22]">Media Press Release Platform</p>
+            <p className="truncate text-[11px] uppercase tracking-[0.22em] text-[#9a5b22]">Media Press Media Platform</p>
           </div>
         </Link>
 

@@ -61,7 +61,7 @@ export async function HomePageOverride() {
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-[#f1a661]/35 bg-white px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#9a5b22]">
                 <Star className="h-3.5 w-3.5" />
-                Press Release Distribution
+                Press Media Distribution
               </div>
               <h1 className="mt-5 max-w-3xl text-4xl font-bold tracking-[-0.04em] sm:text-5xl">
                 Publish news that earns visibility, trust, and media attention.
@@ -71,9 +71,6 @@ export async function HomePageOverride() {
                 <Link href="/updates" className="inline-flex items-center gap-2 rounded-full bg-[#e38b29] px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_30px_rgba(227,139,41,0.32)] transition hover:bg-[#cc7417]">
                   View Latest Releases
                   <ArrowRight className="h-4 w-4" />
-                </Link>
-                <Link href="/press" className="inline-flex items-center gap-2 rounded-full border border-[#f1a661]/40 bg-white px-6 py-3 text-sm font-semibold text-[#3c1f0c] transition hover:bg-[#fff2df]">
-                  Explore Pricing
                 </Link>
               </div>
               <div className="mt-9 grid gap-3 sm:grid-cols-3">
@@ -90,7 +87,7 @@ export async function HomePageOverride() {
                 <ContentImage src="/freepic/home-hero.jpg" alt="PR team at newsroom desk" width={1200} height={780} className="h-auto w-full object-cover" />
               </div>
               <p className="mt-4 text-sm leading-7 text-[#6f4018]">
-                Visual direction inspired by your provided references: cleaner SaaS hierarchy, card-driven layout, and editorial trust cues.
+                Trusted by newsrooms and PR teams worldwide to publish, distribute, and amplify media stories with speed and credibility.
               </p>
             </div>
           </div>
@@ -111,7 +108,7 @@ export async function HomePageOverride() {
         <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
           <div className="mb-7 flex flex-wrap items-end justify-between gap-4">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.23em] text-[#9a5b22]">Latest Press Releases</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.23em] text-[#9a5b22]">Latest Press Media</p>
               <h2 className="mt-2 text-3xl font-bold tracking-[-0.03em] sm:text-4xl">Newsroom updates from the distribution desk</h2>
             </div>
             <Link href="/updates" className="inline-flex items-center gap-2 text-sm font-semibold text-[#9a5b22] hover:text-[#e38b29]">
@@ -146,9 +143,6 @@ export async function HomePageOverride() {
               <div className="mt-5 flex flex-wrap gap-3">
                 <Link href="/contact" className="inline-flex items-center rounded-full bg-[#e38b29] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#cc7417]">
                   Contact Us
-                </Link>
-                <Link href="/press" className="inline-flex items-center rounded-full border border-[#f1a661]/45 bg-white px-6 py-3 text-sm font-semibold text-[#3c1f0c] transition hover:bg-[#fff3e2]">
-                  Compare Plans
                 </Link>
               </div>
             </div>
@@ -214,7 +208,7 @@ export async function HomePageOverride() {
           <div className="grid gap-6 rounded-[2rem] bg-[linear-gradient(120deg,#8f4f1d_0%,#b66420_55%,#d67a26_100%)] p-8 text-white lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#ffe7cc]">Ready to Share Your News?</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] sm:text-4xl">Launch your next press release in minutes.</h2>
+              <h2 className="mt-3 text-3xl font-bold tracking-[-0.03em] sm:text-4xl">Launch your next press media in minutes.</h2>
               <p className="mt-3 max-w-2xl text-sm leading-7 text-[#fff3e3]">
                 Create compelling stories, distribute with confidence, and drive stronger visibility using your PRnews18 workflow.
               </p>

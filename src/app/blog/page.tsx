@@ -11,7 +11,7 @@ export const generateMetadata = () => buildTaskMetadata('mediaDistribution')
 
 function excerpt(text?: string | null) {
   const value = (text || '').trim()
-  if (!value) return 'Read the complete press release for all newsroom details.'
+  if (!value) return 'Read the complete press media for all newsroom details.'
   return value.length > 180 ? `${value.slice(0, 177).trimEnd()}...` : value
 }
 
@@ -27,7 +27,7 @@ export default async function BlogPage() {
         <section className="border-b border-[#f1a661]/20 bg-[linear-gradient(180deg,#fff7eb_0%,#fffaf4_100%)]">
           <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#9a5b22]">Latest News</p>
-            <h1 className="mt-3 text-4xl font-bold tracking-[-0.04em] sm:text-5xl">Newsroom and press release highlights</h1>
+            <h1 className="mt-3 text-4xl font-bold tracking-[-0.04em] sm:text-5xl">Newsroom and press media highlights</h1>
           </div>
         </section>
 

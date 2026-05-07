@@ -21,7 +21,7 @@ export function FooterOverride() {
               </div>
             </Link>
             <p className="mt-5 max-w-md text-sm leading-7 text-[#ffd8a9]">
-              Publish your press releases, improve media visibility, and keep your newsroom content discoverable across channels.
+              Publish your press media, improve media visibility, and keep your newsroom content discoverable across channels.
             </p>
           </div>
 
@@ -29,7 +29,6 @@ export function FooterOverride() {
             <h3 className="text-xs font-semibold uppercase tracking-[0.24em] text-[#f1a661]">Platform</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li><Link href="/updates" className="transition-colors hover:text-white">Latest News</Link></li>
-              <li><Link href="/press" className="transition-colors hover:text-white">Pricing</Link></li>
               <li><Link href="/blog" className="transition-colors hover:text-white">Newsroom</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-white">Contact</Link></li>
             </ul>
@@ -39,8 +38,6 @@ export function FooterOverride() {
             <h3 className="text-xs font-semibold uppercase tracking-[0.24em] text-[#f1a661]">Company</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li><Link href="/about" className="transition-colors hover:text-white">About Us</Link></li>
-              <li><Link href="/team" className="transition-colors hover:text-white">Team</Link></li>
-              <li><Link href="/careers" className="transition-colors hover:text-white">Careers</Link></li>
               <li><Link href="/help" className="transition-colors hover:text-white">Help Center</Link></li>
             </ul>
           </div>
@@ -51,7 +48,6 @@ export function FooterOverride() {
               <li><Link href="/privacy" className="transition-colors hover:text-white">Privacy Policy</Link></li>
               <li><Link href="/terms" className="transition-colors hover:text-white">Terms of Service</Link></li>
               <li><Link href="/cookies" className="transition-colors hover:text-white">Cookies</Link></li>
-              <li><Link href="/licenses" className="transition-colors hover:text-white">Licenses</Link></li>
             </ul>
           </div>
         </div>
